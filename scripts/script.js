@@ -168,7 +168,7 @@ function movieDetails(m) {
     </div>
     `
   )}
-function moviePage(movieData) {
+function moviePage() {
   document.querySelector('#movie-details').innerHTML = movieDetails(movieData);
 }
 moviePage();
