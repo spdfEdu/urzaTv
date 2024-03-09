@@ -171,4 +171,4 @@ function movieDetails(m) {
 function moviePage() {
   document.querySelector('#movie-details').innerHTML = movieDetails(movieData);
 }
-moviePage();
+moviePage(movieData);
